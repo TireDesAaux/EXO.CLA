@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.clavier {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+li {
+    height: 2.5em;
+    font-size: 1em;
+    width: 3em;
+    margin: 1px;
+    background-color: rgb(24, 25, 26);
+    border-radius: 0.5em;
+    text-align: center;
+    line-height: 2.5em;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+li:hover {
+    background-color: rgb(212, 22, 22);
+}
+
+.barre-space {
+    width: 800px;
+    height: auto;
+}
+
+.bout-norm {
+    width: 3em;
+}
+
+.bout-moyen {
+    width: 5em;
+}
+
+.bout-space {
+    width: 20em;
+}
+
+.bout-grand {
+    width: 6em;
+}
+
+[style*="background-color: red;"] {
+    background-color: red;
+    color: white;
+}
